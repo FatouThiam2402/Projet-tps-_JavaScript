@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title> TP4 JS</title>	
+		<link rel="stylesheet" type="text/css" href="../css/style4.css">
+	</head>
+
+	<body>
+		<form class="mon_formulaire">
+			<div class="les_element">
+				<div  id="resultat_passwordGenerer" name="passwordGenerer"></div><br>
+				<label>
+					Longueur du Password
+					<select id="taille_passwd">
+						<option value = 15 >15</option>
+						<option value = 16>16</option>
+						<option value = 17>17</option>
+						<option value = 18>18</option>
+						<option value = 19>19</option>
+						<option value = 20>20</option>
+					</select>
+				</label>
+				<label>
+					Contient des lettres majuscule
+					<input type="checkbox" id="lettres_majuscule" name="lettres_majuscule">
+				</label>
+				<label>
+					Contient des lettres minuscules
+					<input type="checkbox" id="lettres_minuscule" name="lettres_minuscule">
+				</label>
+				<label>
+					Contient des Nombres
+					<input type="checkbox" id="nombres" name="nombres">
+				</label>
+				<label>
+					Contient des caracteres Speciaux
+					<input type="checkbox" id="caracteres_speciaux" name="caracteres_speciaux">
+				</label>
+				<button type="button" id="btn_generer_passwd">Generer le mot de Passe</button>
+			</div>
+		</form>
+		<script type="text/javascript" src="../js/script4.js"></script>
+	</body>
+</html>
